@@ -1,0 +1,21 @@
+Health Region,Observed Cases,Expected Cases,O/E Ratio,Simultaneous 95% Null Lower,Simultaneous 95% Null Upper,Classification
+Qurayyat,317,33.364954,9.500987,0.476706,1.523294,Higher than null reference
+Al-Jouf,567,67.630506,8.383791,0.633515,1.366485,Higher than null reference
+Najran,603,108.626582,5.551127,0.711815,1.288185,Higher than null reference
+Makkah,545,456.721932,1.193286,0.863708,1.136292,Higher than null reference
+Jazan,322,277.745593,1.159334,0.822392,1.177608,Within null reference
+Riyadh,1600,1550.510950,1.031918,0.933724,1.066276,Within null reference
+Northern,55,68.464746,0.803333,0.635765,1.364235,Within null reference
+Qaseem,204,256.653940,0.794845,0.814889,1.185111,Lower than null reference
+Aseer,253,328.866200,0.769310,0.837503,1.162497,Lower than null reference
+Medinah,300,395.169558,0.759168,0.852628,1.147372,Lower than null reference
+Ta`if,160,225.420394,0.709785,0.801964,1.198036,Lower than null reference
+Qunfudah,38,54.342999,0.699262,0.590689,1.409311,Within null reference
+Tabouk,116,166.649002,0.696074,0.768480,1.231520,Lower than null reference
+Jeddah,489,805.626865,0.606981,0.900676,1.099324,Lower than null reference
+Hafr Al-Baten,36,84.397081,0.426555,0.672383,1.327617,Lower than null reference
+Eastern,254,622.873282,0.407788,0.885046,1.114954,Lower than null reference
+Bishah,25,65.909975,0.379305,0.628715,1.371285,Lower than null reference
+Ha`il,46,133.105459,0.345591,0.740205,1.259795,Lower than null reference
+Al-Ahsa,51,217.426292,0.234562,0.798202,1.201798,Lower than null reference
+Al-Bahah,16,77.493691,0.206468,0.657955,1.342045,Lower than null reference

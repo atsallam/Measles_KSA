@@ -1,0 +1,150 @@
+standardized_province,governorate,moh_health_region
+Eastern,Dammam,Eastern
+Eastern,Khobar,Eastern
+Eastern,Abqaiq,Eastern
+Eastern,Al Ahsa,Al-Ahsa
+Eastern,Al Udayd,Eastern
+Eastern,Al Nuayriyah,Eastern
+Eastern,Qatif,Eastern
+Eastern,Ras Tannurah,Eastern
+Eastern,Al Jubayl,Eastern
+Eastern,Al Khafji,Eastern
+Eastern,Hafar Al Batin,Hafr Al-Baten
+Eastern,Qaryah Al Ulya,Eastern
+Qaseem,Uyun Al Jiwa,Qaseem
+Qaseem,Al Midhnab,Qaseem
+Qaseem,Al Asyah,Qaseem
+Qaseem,Riyadh Al Khabra,Qaseem
+Qaseem,Unayzah,Qaseem
+Qaseem,Uqlat As Suqur,Qaseem
+Qaseem,An Nabhaniyah,Qaseem
+Qaseem,Al Badai,Qaseem
+Qaseem,Al Bukayriyah,Qaseem
+Qaseem,Dariyah,Qaseem
+Qaseem,Buraydah,Qaseem
+Qaseem,Ar Rass,Qaseem
+Qaseem,Ash Shimasiyah,Qaseem
+Ha`il,Mawqaq,Ha`il
+Ha`il,Baqa,Ha`il
+Ha`il,Hail,Ha`il
+Ha`il,Ash Shinan,Ha`il
+Ha`il,As Sulaymi,Ha`il
+Ha`il,Al Hait,Ha`il
+Ha`il,Simira,Ha`il
+Ha`il,Ash Shamli,Ha`il
+Ha`il,Al Ghazalah,Ha`il
+Northern,Rafha,Northern
+Northern,Arar,Northern
+Northern,Turayf,Northern
+Northern,Al Uwayqilah,Northern
+Al-Jouf,Sakaka,Al-Jouf
+Al-Jouf,Al Qurayyat,Qurayyat
+Al-Jouf,Tubarjal,Al-Jouf
+Al-Jouf,Dawamat Al Jandal,Al-Jouf
+Tabouk,Umluj,Tabouk
+Tabouk,Tayma,Tabouk
+Tabouk,Al Wajh,Tabouk
+Tabouk,Duba,Tabouk
+Tabouk,Al-Bad',Tabouk
+Tabouk,Tabuk,Tabouk
+Tabouk,Haqil,Tabouk
+Riyadh,Marat,Riyadh
+Riyadh,Wadi Ad Dawasir,Riyadh
+Riyadh,Thadiq,Riyadh
+Riyadh,Ad Diriyah,Riyadh
+Riyadh,Ad Dilam,Riyadh
+Riyadh,Duruma,Riyadh
+Riyadh,Al Ghat,Riyadh
+Riyadh,As Sulayyil,Riyadh
+Riyadh,Hawtat Bani Tamim,Riyadh
+Riyadh,Al Muzahimiyah,Riyadh
+Riyadh,Huraymila,Riyadh
+Riyadh,Al Quwayiyah,Riyadh
+Riyadh,Al Aflaj,Riyadh
+Riyadh,Az Zulfi,Riyadh
+Riyadh,Al Majmaah,Riyadh
+Riyadh,Al Kharj,Riyadh
+Riyadh,Shaqra,Riyadh
+Riyadh,Al Hariq,Riyadh
+Riyadh,Riyadh Governorate,Riyadh
+Riyadh,Ad Duwadimi,Riyadh
+Riyadh,Ar Rayn,Riyadh
+Riyadh,Rumah,Riyadh
+Riyadh,Afif,Riyadh
+Najran,Khubash,Najran
+Najran,Thar,Najran
+Najran,Najran,Najran
+Najran,Yadamah,Najran
+Najran,Sharurah,Najran
+Najran,Badr Al Janub,Najran
+Najran,Hubuna,Najran
+Medinah,Al Madinah Al Munawwarah,Medinah
+Medinah,Al Mahd,Medinah
+Medinah,Yanbu,Medinah
+Medinah,Al Hinakiyah,Medinah
+Medinah,Khaybar,Medinah
+Medinah,Al Ula,Medinah
+Medinah,Al Is,Medinah
+Medinah,Wadi Al Fara,Medinah
+Medinah,Badr,Medinah
+Makkah,Al Taif,Ta`if
+Makkah,Al Kamil,Makkah
+Makkah,Makkah Al Mukarramah,Makkah
+Makkah,Al Qunfudhah,Qunfudah
+Makkah,Jeddah,Jeddah
+Makkah,Khulays,Makkah
+Makkah,Al Muwayh,Ta`if
+Makkah,Turubah,Ta`if
+Makkah,Al Jumum,Makkah
+Makkah,Rabigh,Jeddah
+Makkah,Al Lith,Jeddah
+Makkah,Ranyah,Ta`if
+Makkah,Al Khurmah,Ta`if
+Makkah,Bahrah,Makkah
+Makkah,Maysan,Ta`if
+Makkah,Al Ardhiyat,Qunfudah
+Makkah,Adam,Jeddah
+Al-Bahah,Biljurashi,Al-Bahah
+Al-Bahah,Al Hajrah,Al-Bahah
+Al-Bahah,Al Mukhwah,Al-Bahah
+Al-Bahah,Qilwah,Al-Bahah
+Al-Bahah,Al Aqiq,Al-Bahah
+Al-Bahah,Al Qara,Al-Bahah
+Al-Bahah,Bani Hasan,Al-Bahah
+Al-Bahah,Al Mandaq,Al-Bahah
+Al-Bahah,Al Bahah,Al-Bahah
+Al-Bahah,Farat Ghamid Az Zinad,Al-Bahah
+Jazan,Al Harth,Jazan
+Jazan,Damad,Jazan
+Jazan,Fayfa,Jazan
+Jazan,Samtah,Jazan
+Jazan,Farasan,Jazan
+Jazan,Ad Darb,Jazan
+Jazan,Sabya,Jazan
+Jazan,Ahad Al Masarihah,Jazan
+Jazan,Al Aydabi,Jazan
+Jazan,Ar Rayth,Jazan
+Jazan,At Tuwal,Jazan
+Jazan,Jazan,Jazan
+Jazan,Harub,Jazan
+Jazan,Ad Dair,Jazan
+Jazan,Al Aridah,Jazan
+Jazan,Abu Arish,Jazan
+Jazan,Baysh,Jazan
+Aseer,Zahran Al Janub,Aseer
+Aseer,Ahad Rufaydah,Aseer
+Aseer,Tathlith,Bishah
+Aseer,Abha,Aseer
+Aseer,Tarib,Aseer
+Aseer,Bishah,Bishah
+Aseer,Muhayil,Aseer
+Aseer,Al Birk,Aseer
+Aseer,Al Harjah,Aseer
+Aseer,Balqarn,Bishah
+Aseer,Bariq,Aseer
+Aseer,Al Majardah,Aseer
+Aseer,An Nimas,Aseer
+Aseer,Sarat Abidah,Aseer
+Aseer,Rijal Almaa,Aseer
+Aseer,Tanumah,Aseer
+Aseer,Khamis Mushayt,Aseer

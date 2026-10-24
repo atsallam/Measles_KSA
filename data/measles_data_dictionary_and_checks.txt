@@ -1,0 +1,64 @@
+DATA SOURCE
+User-uploaded: measles_2014_2023_master_audited(2).xlsx, Sheet1.
+Extraction date: 2026-10-19.
+
+FILES AND UNIT OF OBSERVATION
+measles_region_year_corrected.csv: health_region x year (200 rows).
+measles_national_monthly_corrected.csv: year x month (120 rows).
+measles_national_age_corrected.csv: year x age group (50 rows).
+measles_national_annual_corrected.csv: year (10 rows).
+measles_master_combined_corrected.csv: 370 heterogeneously typed records. Filter record_type before analysis. DO NOT sum across types.
+
+REGIONAL DATA DICTIONARY
+health_region: health-region name as supplied.
+year: calendar year.
+reported_cases: reported measles case count for health region and year.
+population: annual health-region population estimate.
+annual_incidence_per_100k: reported_cases / population * 100000.
+region_total_cases_2014_2023: sum of 10 yearly case counts within region (repeats across years).
+region_aair_per_100k_per_year: region_total_cases_2014_2023 / sum of 10 annual regional population estimates * 100000 (repeats across years). DO NOT SUM these repeated columns.
+
+MONTHLY DATA DICTIONARY
+year, month_number, month: national reporting month.
+reported_cases: national reported cases in month.
+national_annual_population: national population estimate for the corresponding year, repeated every month.
+monthly_cases_per_100k_annual_population: monthly case count / annual national population * 100000; NOT an annualized monthly rate.
+
+AGE DATA DICTIONARY
+year: reporting year.
+age_group: lt1 (age <1), age1_lt5 (1 to <5), age5_lt15 (5 to <15), age15_lt45 (15 to <45), age45plus (>=45).
+reported_cases: national case count for age and year.
+age_specific_population: blank because absent from the uploaded workbook.
+age_specific_incidence_per_100k: blank because population denominator absent. Do not replace blanks with zero.
+
+ANNUAL DATA DICTIONARY
+year: reporting year.
+reported_cases: national case count.
+population: national annual population from sum of 20 health-region populations.
+annual_crude_incidence_per_100k: annual cases / national annual population * 100000.
+
+MASTER DATA DICTIONARY
+record_type: region_year / national_month / national_age_year.
+year, month, health_region, age_group: applicable observation coordinates; blank when not applicable.
+reported_cases: counts for that record_type only.
+population, incidence_per_100k: population and corresponding incidence where denominator is supplied; blank for age records.
+region_aair_per_100k_per_year: 10-year rate attached only to region records; repeated for 10 annual rows, NOT additive.
+
+AUDIT CHECKS (PASSED)
+- 20 health-region identifiers aligned between case and population tables (apostrophe variants normalized for comparison only).
+- Each region's 10 annual counts sum to its source Total.
+- Each region's recalculated AAIR exactly matches its corrected source AAIR within numerical precision.
+- Each region's mean 2014-2023 population matches its source Average.
+- For each of 10 years, regional cases = sum of 12 monthly cases = sum of 5 age-group case counts = source annual total.
+- For each of 10 years, 20 regional populations sum to national total.
+- Age-group column totals and monthly column totals agree with corrected source summary rows.
+- Overall total: 5,997 cases in each of three alternative breakdowns.
+- Export CSV record counts re-read and verified.
+
+REMAINING LIMITATIONS / RECOMMENDED OPTIMIZATIONS
+1. Repeated population estimates occur in 2018/2019 and 2022/2023 for all regions. Verify method of estimation and source comparability; this is NOT corrected automatically.
+2. Region-specific monthly observations are NOT provided; do not infer them from national monthly counts.
+3. Age-specific population estimates are NOT provided. Obtain verified year-by-age-group denominators before calculating age-specific incidence independently.
+4. Acquire GIS boundaries for 20 health regions, not merely 13 administrative provinces; check name/geometry correspondence before spatial operations.
+5. Check surveillance completeness, definitional changes and whether geographic reporting regions are consistent across years.
+6. Note annual regional population does not encode person-level movements; do not infer individual-level risk or transmission.
